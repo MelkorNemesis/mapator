@@ -3,7 +3,7 @@
   "author": "Michal Ševčík <sevcik.mi@gmail.com>",
   "description": "Javascript values mapper with optional callbacks when no mapping found.",
   "repository": "MelkorNemesis/mapator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "keywords": [
     "mappper",

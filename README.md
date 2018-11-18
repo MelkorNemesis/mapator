@@ -14,6 +14,8 @@ yarn add mapator
 ### JavaScript
 
 ```javascript
+import Mapator from "mapator";
+
 const fooMapper = Mapator({
   abc: "123",
   def: "456",
@@ -32,6 +34,8 @@ fooMapper.keyToValue("jkl"); // undefined
 By default when no key is found for given value, `undefined` is returned.
 
 ```javascript
+import Mapator from "mapator";
+
 const barMapper = Mapator(
   {
     abc: "123"
@@ -51,6 +55,8 @@ barMapper.valueToKey("456"); // Error: No key found for value "456".
 By default when no value is found for given key, `undefined` is returned.
 
 ```javascript
+import Mapator from "mapator";
+
 const barMapper = Mapator(
   {
     abc: "123"
