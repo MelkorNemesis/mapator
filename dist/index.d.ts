@@ -4,7 +4,6 @@ interface StringHashMap {
 interface Options {
     onKeyNotFound?: (key: string) => any;
     onValueNotFound?: (value: string) => any;
-    strict?: boolean;
 }
 interface PublicAPI {
     keyToValue: (key: string) => any;
